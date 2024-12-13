@@ -275,6 +275,11 @@ img{
 }
 
 /*========== HOME ==========*/
+.home__data{
+  text-align: center;
+}
+
+
 .home__container{
   row-gap: .5rem;
 }
@@ -303,6 +308,7 @@ img{
   border-radius: .5rem;
   font-weight: var(--font-semi-bold);
   transition: .3s;
+  margin-left: 25%;
 }
 
 .button:hover{
@@ -435,6 +441,10 @@ img{
       "slnt" 0;
 }
 
+.cart{
+  text-align: center;
+}
+
 .send__direction{
   display: flex;
   justify-content: space-between;
@@ -543,6 +553,7 @@ img{
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
+      text-align: center;
   }
 
   .home__img,
